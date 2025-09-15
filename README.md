@@ -11,6 +11,8 @@ A modern search interface built with **React.js** and **Vite** that supports:
 
 ---
 
+Note: I have lake of time so, I didn't Integrate the api for this i take a 5 element list or object. If search check Type "Ran" than you can see data
+
 ## Features
 
 - **Search with Debounce**: Prevents unnecessary renders and improves performance.
