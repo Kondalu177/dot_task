@@ -1,12 +1,51 @@
-# React + Vite
+# React Search Tabs App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern search interface built with **React.js** and **Vite** that supports:
 
-Currently, two official plugins are available:
+- Real-time search with debouncing
+- Skeleton loaders for better UX
+- Tab-based filtering (Files, People, Chats, Lists)
+- Toggle filters for tabs
+- Copy-to-clipboard functionality
+- Responsive UI with icons and badges
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Search with Debounce**: Prevents unnecessary renders and improves performance.
+- **Skeleton Loader**: Displays placeholders while search results load.
+- **Tab Filtering**: Filter results by `Files`, `People`, `Chats`, and `Lists`.
+- **Toggle Filters**: Enable/disable filters for each tab.
+- **Copy-to-Clipboard**: Easily copy item details with feedback.
+- **Dynamic Tabs & Badges**: Tabs show the count of available items dynamically.
+- **Responsive Layout**: Works well on desktop and mobile screens.
+
+---
+
+## Tech Stack
+
+- **Frontend**: React.js (Functional Components, Hooks)
+- **Bundler**: Vite
+- **Styling**: CSS + Tailwind (if used)
+- **Icons**: Font Awesome
+
+---
+
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Kondalu177/dot_task
+cd dot_task
+
+npm install
+
+npm run dev
+
+http://localhost:5173
+
+
+
+```
